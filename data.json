@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Sandrine Da Col",
-        "label": "ML Engineer",
+        "label": "Machine Learning Engineer",
         "email": "sandrine.dacol@gmail.com",
         "phone": "+33 (0)6 03 01 25 88",
         "summary": "Former physicist now working in artificial intelligence, with a strong interest in research",
@@ -507,7 +507,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-03 19:51:02.334212"
+        "lastModified": "2026-02-03 19:51:50.079492"
     },
     "interests": [
         {
