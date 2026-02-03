@@ -1,6 +1,6 @@
 # Resume
 
-The `index.html` file is live at [https://sandrinedacol.github.io/resume/](https://sandrinedacol.github.io/resume/) (via GitHub Pages).
+`index.html` is deployed at [https://sandrinedacol.github.io/resume/](https://sandrinedacol.github.io/resume/) (via GitHub Pages).
 
 ## Setup
 
@@ -11,13 +11,13 @@ uv sync
 uv run playwright install chromium
 ```
 
-## Updating the Resume
+## Update
 
 1. Update `data.json`.
 
-2. Run the script to regenerate a fully static `index.html`:
+1. Run the script to regenerate a fully static `index.html`:
     ```bash
     uv run main.py
     ```
 
-1. Wait ~1 minute for the process to complete.
+1. Wait for about 1 minute.
