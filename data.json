@@ -1,0 +1,570 @@
+{
+    "basics": {
+        "name": "Sandrine Da Col",
+        "label": "Machine Learning Engineer",
+        "email": "sandrine.dacol@gmail.com",
+        "phone": "+33 (0)6 03 01 25 88",
+        "summary": "Former physicist now working in artificial intelligence, with a strong interest in research",
+        "location": {
+            "address": "120 chemin du Lautaret",
+            "postal_code": "38190",
+            "city": "Laval-en-Belledonne",
+            "country": "France",
+            "country_code": "FR"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sandrine-dacol/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Ygreky",
+            "location": "remote",
+            "position": "Data Scientist",
+            "start_date": "2025-05-05",
+            "end_date": "2025-12-20",
+            "contract": "internship",
+            "supervisor": "Marta Rybczy\u0144ska",
+            "domain": "AI",
+            "projects": [
+                {
+                    "name": "Source code vulnerability detection using machine-learning",
+                    "highlights": [
+                        "Database conception and implementation of a pipeline to build and update a new dataset of vulnerable source code",
+                        "Implementation of a literature-inspired model of vulnerability detection, evaluation"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "STMicroelectronics",
+            "department": "Defectivity Department",
+            "group": "AI group",
+            "location": "Crolles, France",
+            "position": "Data Scientist / Process Engineer",
+            "start_date": "2022-11-07",
+            "end_date": "2023-11-07",
+            "contract": "fixed-term contract",
+            "domain": "AI",
+            "projects": [
+                {
+                    "name": "Bring AI to production line",
+                    "description": "Data scientist's expertise to improve process methods",
+                    "highlights": [
+                        "Data scientist eye on a huge project of Defectivity Digitalization, link between stakeholders (IT/process)",
+                        "Process control optimization from a data perspective",
+                        "Automatic Defect Classi\ufb01cation: proposition & exploration of leads of improvement"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "CNRS & Grenoble-Alpes University",
+            "department": "Computer Science Laboratory of Grenoble (LIG)",
+            "group": "SLIDE group",
+            "location": "Grenoble, France",
+            "position": "Research Engineer",
+            "start_date": "2021-01-15",
+            "end_date": "2022-01-15",
+            "contract": "fixed-term contract",
+            "domain": "AI",
+            "projects": [
+                {
+                    "name": "Machine-learning system for dashboard generation",
+                    "highlights": [
+                        "Implementation from scratch of the system and di\ufb00erent algorithms learning from interacting with the user, experiments & tests",
+                        "Design and implementation of a web application",
+                        "Experiments plan, implementation and tests"
+                    ],
+                    "links": [
+                        {
+                            "type": "demo",
+                            "url": "https://www.youtube.com/watch?v=iOtDOaIYVzk"
+                        },
+                        {
+                            "type": "paper",
+                            "url": "https://dl.acm.org/doi/abs/10.1145/3459637.3481968"
+                        },
+                        {
+                            "type": "code",
+                            "url": "https://github.com/sandrinedacol/DashBot"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multicriteria rating extraction from text reviews",
+                    "highlights": [
+                        "Design and implementation of a pipeline generating ratings on several criteria from Yelp reviews",
+                        "Tests to optimize considered adjustable parameters"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Atos Bull",
+            "department": "Computer Vision Lab",
+            "location": "Echirolles, France",
+            "position": "R&D Deep Learning Engineer",
+            "start_date": "2020-05",
+            "end_date": "2020-12",
+            "contract": "internship",
+            "supervisor": "Matthieu Ospici & Miguel Garcia Garcia",
+            "domain": "AI",
+            "projects": [
+                {
+                    "name": "Few-shot learning for person re-identification",
+                    "description": "Goal: Study potential improvements of the model developed in the company",
+                    "highlights": [
+                        "Hyperparameters optimization of an already implemented technique (mixup) and study of its relevance for the CNN model developped in Atos",
+                        "Bibliography study on few-shot learning and domain adaptation",
+                        "Choice of a deep learning model with external memory and adaptation to person re-identification",
+                        "First attempts towards continual learning"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "IBM",
+            "department": "Z\u00fcrich Research Laboratory",
+            "group": "Physics of Nanoscale Systems group",
+            "location": "Z\u00fcrich, Switzerland",
+            "position": "Postdoctoral Researcher",
+            "start_date": "2015-03",
+            "end_date": "2016-09",
+            "contract": "fixed-term contract",
+            "domain": "physics",
+            "projects": [
+                {
+                    "name": "Domain walls under \ufb01eld and current",
+                    "highlights": [
+                        "Investigation of domain wall motion in nanostrips (time-resolved MOKE)",
+                        "Modification of material intrinsic magnetic properties with ion implantation (FIB)"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": " CNRS & Grenoble-Alpes University",
+            "department": "N\u00e9el Institute",
+            "group": "Micro and NanoMagnetism group",
+            "location": "Grenoble, France",
+            "position": "PhD Student",
+            "supervisor": "Olivier Fruchart",
+            "start_date": "2010-10",
+            "end_date": "2014-06",
+            "contract": "fixed-term contract",
+            "domain": "physics",
+            "projects": [
+                {
+                    "name": "Domain walls in cylindrical nanowires",
+                    "description": "Main achievement: experimental evidence of magnetic structures, predicted for decades by theoretical and numerical studies",
+                    "highlights": [
+                        "Fabrication of arrays of cylindrical nanowires (aluminum anodization and electrodeposition)",
+                        "Development of a process to modulate the nanowire diameter",
+                        "Development of a deposition process for controlled magnetic alloy (permalloy)",
+                        "Study of the role of interactions on domain wall nucleation and propagation in nanowire arrays",
+                        "MFM observation of domain walls in single permalloy nanowires, further to a controlled nucleation",
+                        "Quasi-static propagation of domain walls and mesurements of propagation fields",
+                        "First observation of the two types of domain walls in cylindrical nanowires, i.e. observation of a Bloch point structure (XMCD-PEEM)"
+                    ],
+                    "links": [
+                        {
+                            "type": "defense",
+                            "url": "https://www.youtube.com/watch?v=4YSxD8iirLg&t=1013s"
+                        },
+                        {
+                            "type": "thesis",
+                            "url": "https://theses.hal.science/tel-02447137v1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Grenoble-Alpes University",
+            "department": "Chemistry Department",
+            "location": "Grenoble, France",
+            "position": "Teaching Fellow",
+            "start_date": "2010-10",
+            "end_date": "2012-10"
+        },
+        {
+            "company": "STMicroelectronics",
+            "department": "Quality & Reliability",
+            "location": "Grenoble, France",
+            "position": "Engineer",
+            "start_date": "2008-02",
+            "end_date": "2008-08",
+            "contract": "internship",
+            "supervisor": "Maria Iulius",
+            "domain": "physics",
+            "projects": [
+                {
+                    "name": "Intermetallic growth on AuAl wire-bonding",
+                    "highlights": [
+                        "Experimental plan / Tests realization",
+                        "Conclusions leading to an evolution of the ageing test used in the Quality department"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "le Campus Num\u00e9rique in the Alps",
+            "study_type": "Training Program",
+            "program_name": "Data Scientist",
+            "start_date": "2024-10-28",
+            "end_date": "2025-12-19",
+            "description": "770h-training course in Data and AI"
+        },
+        {
+            "institution": "Grenoble INP - ENSIMAG & Grenoble Ecole de Management",
+            "study_type": "Mast\u00e8re Sp\u00e9cialis\u00e9",
+            "program_name": "Big Data",
+            "start_date": "2019-09-01",
+            "end_date": "2020-12-01",
+            "description": "Post-diploma training on Data Science / Big Data",
+            "projects": [
+                {
+                    "name": "Patient trajectory prediction from hospitalization reports",
+                    "highlights": [
+                        "Textual data pre-processing (anonymization, cleaning, tokenization)",
+                        "Training of the RNN model with texts (already implemented in Theano for numerical data)"
+                    ]
+                }
+            ]
+        },
+        {
+            "institution": "Grenoble-Alpes University",
+            "study_type": "Ph.D. in Physics",
+            "description": "Nanophysics",
+            "start_date": "2010-10-01",
+            "end_date": "2014-06-30"
+        },
+        {
+            "institution": "Grenoble-Alpes University",
+            "study_type": "Research Master",
+            "description": "Nanosciences, Nanotechnologies: Nanophysics, Nanostructures",
+            "start_date": "2009-09-01",
+            "end_date": "2010-07-01"
+        },
+        {
+            "institution": "Grenoble INP - Phelma",
+            "study_type": "Engineering School",
+            "description": "Physical chemistry, Materials Science, Materials for Microelectronics & MEMS",
+            "start_date": "2003-09-01",
+            "end_date": "2008-07-01"
+        }
+    ],
+    "skills": [
+        {
+            "domain": "AI/Data",
+            "sub_domains": [
+                {
+                    "name": "Machine Learning",
+                    "skills": [
+                        {
+                            "name": "Theoretical Fundamentals"
+                        },
+                        {
+                            "name": "Statistics",
+                            "technos": [
+                                "statsmodels",
+                                "SciPy"
+                            ]
+                        },
+                        {
+                            "name": "Classical ML",
+                            "technos": [
+                                "scikit-learn",
+                                "R"
+                            ]
+                        },
+                        {
+                            "name": "Deep Learning",
+                            "technos": [
+                                "PyTorch",
+                                "TensorFlow",
+                                "Keras"
+                            ]
+                        },
+                        {
+                            "name": "Computer Vision"
+                        },
+                        {
+                            "name": "NLP / LLM / RAG",
+                            "technos": [
+                                "NLTK",
+                                "LangChain"
+                            ]
+                        },
+                        {
+                            "name": "Time Series",
+                            "technos": [
+                                "sktime"
+                            ]
+                        },
+                        {
+                            "name": "Recommender systems"
+                        }
+                    ]
+                },
+                {
+                    "name": "Data",
+                    "skills": [
+                        {
+                            "name": "Databases Basics"
+                        },
+                        {
+                            "name": "SQL / noSQL",
+                            "technos": [
+                                "PostgreSQL",
+                                "SQLAlchemy"
+                            ]
+                        },
+                        {
+                            "name": "Big Data",
+                            "technos": [
+                                "PySpark"
+                            ]
+                        },
+                        {
+                            "name": "Semantic Web",
+                            "technos": [
+                                "SPARQL"
+                            ]
+                        },
+                        {
+                            "name": "Data Manipulation",
+                            "technos": [
+                                "numpy",
+                                "pandas"
+                            ]
+                        },
+                        {
+                            "name": "Scraping & Mining",
+                            "technos": [
+                                "beautifulsoup",
+                                "requests"
+                            ]
+                        },
+                        {
+                            "name": "Visualization",
+                            "technos": [
+                                "matplotlib",
+                                "plotly",
+                                "d3.js",
+                                "Vega",
+                                "Vega-lite"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Code & Computing",
+                    "skills": [
+                        {
+                            "name": "Python",
+                            "level": "preferred language"
+                        },
+                        {
+                            "name": "Linux"
+                        },
+                        {
+                            "name": "Git"
+                        },
+                        {
+                            "name": "Docker"
+                        },
+                        {
+                            "name": "Web Development",
+                            "technos": [
+                                "FastAPI",
+                                "Vue.js",
+                                "Bootstrap",
+                                "Javascript",
+                                "HTML"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "domain": "Physics",
+            "sub_domains": [
+                {
+                    "name": "Fields",
+                    "skills": [
+                        {
+                            "name": "Condensed Matter"
+                        },
+                        {
+                            "name": "Nanophysics"
+                        },
+                        {
+                            "name": "Nanomagnetism"
+                        },
+                        {
+                            "name": "Physical Chemistry"
+                        },
+                        {
+                            "name": "Materials Science"
+                        },
+                        {
+                            "name": "Microelectronics"
+                        }
+                    ]
+                },
+                {
+                    "name": "Techniques",
+                    "skills": [
+                        {
+                            "name": "Microscopy",
+                            "technos": [
+                                "AFM/MFM",
+                                "PEEM-XMCD",
+                                "SEM"
+                            ]
+                        },
+                        {
+                            "name": "Characterization",
+                            "technos": [
+                                "VSM",
+                                "Kerr magnetometry",
+                                "EDX",
+                                "XRD",
+                                "MOKE"
+                            ]
+                        },
+                        {
+                            "name": "Fabrication",
+                            "technos": [
+                                "clean room techniques",
+                                "electrochemical synthesis",
+                                "ALD",
+                                "evaporatin",
+                                "FIB"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "domain": "General",
+            "sub_domains": [
+                {
+                    "name": "Research",
+                    "skills": [
+                        {
+                            "name": "Bibliography"
+                        },
+                        {
+                            "name": "Article and Report Writing"
+                        },
+                        {
+                            "name": "Oral Presentation Skills"
+                        }
+                    ]
+                },
+                {
+                    "name": "Languages",
+                    "skills": [
+                        {
+                            "name": "French",
+                            "level": "native speaker"
+                        },
+                        {
+                            "name": "English",
+                            "level": "professional proficient"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "personal_projects": [
+        {
+            "title": "Saponificator",
+            "name": "Data-oriented soap-making recipe builder",
+            "highlights": [
+                "Computes recipe and soap properties"
+            ],
+            "startDate": "2022-02",
+            "endDate": "2022-03",
+            "type": "Web Application",
+            "links": [
+                {
+                    "type": "demo",
+                    "url": "https://www.youtube.com/watch?v=mZA_FJs1R4g"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "lastModified": "2026-02-03 17:09:17.381160"
+    },
+    "interests": [
+        {
+            "name": "Mountains",
+            "description": "I love absolutely everything about the mountains.",
+            "keywords": [
+                "Hiking",
+                "Mountaineering",
+                "Botany",
+                "Huts",
+                "The Meije"
+            ]
+        },
+        {
+            "name": "Handcrafting",
+            "description": "I like making things with my hands... and I'm not afraid of projects that require meticulousness and patience.",
+            "keywords": [
+                "Knitting",
+                "Crochet",
+                "Bobbin Lace",
+                "Pyrography",
+                "Sewing",
+                "Origami"
+            ]
+        },
+        {
+            "name": "Music",
+            "description": "I played piano and flute until adulthood and recently returned to piano. I've loved classical music since I was a child, but my heart also belongs to metal. That said, I believe almost any genre can be compelling when performed by talented people.",
+            "keywords": [
+                "Tool",
+                "Gojira",
+                "Igorrr",
+                "Eths",
+                "Comeback Kid",
+                "Bach",
+                "Bach",
+                "Shostakovich",
+                "Belleruche",
+                "Amy Winehouse",
+                "Waldeck",
+                "Mountain Men",
+                "Schlaasss"
+            ]
+        },
+        {
+            "name": "Animals",
+            "description": "Pony lover and Spitak's Human (he's a Samoyed)",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "keywords": [
+                ""
+            ]
+        }
+    ]
+}
