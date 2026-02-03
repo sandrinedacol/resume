@@ -16,7 +16,7 @@ class ResumeModificator():
         self.get_empty_html()
         self.copy_data_into_html()
         self.generate_static()
-        # self.git_push()
+        self.git_push()
 
     def insert_text_into_tag(self, tag, text):
         content_before, content_after = self.html.split(f'<{tag}></{tag}>')
