@@ -1,5 +1,6 @@
 from datetime import datetime
 import json
+import os
 from git import Repo
 import time
 from playwright.sync_api import sync_playwright
@@ -11,14 +12,13 @@ class ResumeModificator():
 
     def __init__(self):
         self.date = datetime.now()
+        self.path = os.getcwd()
         self.repo = Repo('.')
 
         self.get_empty_html()
         self.copy_data_into_html()
-        self.git_push(step=1)
-        time.sleep(60)
         self.generate_static()
-        self.git_push(step=2)
+        self.git_push()
 
     def insert_text_into_tag(self, tag, text):
         content_before, content_after = self.html.split(f'<{tag}></{tag}>')
@@ -45,23 +45,18 @@ class ResumeModificator():
         if not interests:
             del data['interests']
         self.html = content_before + 'const data = ' + json.dumps(data) + content_after
-        with open('./index.html', 'w') as f:
+        with open('./filled_page.html', 'w') as f:
             f.write(self.html)
-        print('Content of data.json copied into index.html.')
+        print('Content of data.json copied into filled_page.html.')
 
-    def git_push(self, step=1):
+    def git_push(self):
         try:
             self.repo.git.add(update=True)
             commit_message = f"automatic commit {self.date}"
-            if step == 2:
-                commit_message += " (static)"
             self.repo.index.commit(commit_message)
             origin = self.repo.remote(name='origin')
             origin.push()
-            if step == 1:
-                print("Modifications pushed to distant repo.\nWaiting for GitHub Pages to deploy...")
-            elif step == 2:
-                print("Fully static index.html pushed to repo.")
+            print("Fully static index.html pushed to repo.")
         except:
             print('Some error occured while pushing the code')   
 
@@ -70,7 +65,8 @@ class ResumeModificator():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            page.goto(MY_PAGE)
+            # page.goto(MY_PAGE)
+            page.goto("file:///home/sandrine/Documents/candidatures/CV/resume/filled_page.html")
             page.wait_for_load_state("networkidle")
             html = page.content() 
         before, after = html.split('<script>')
