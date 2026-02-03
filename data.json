@@ -64,7 +64,7 @@
         {
             "company": "CNRS & Grenoble-Alpes University",
             "department": "Computer Science Laboratory of Grenoble (LIG)",
-            "group": "SLIDE group",
+            "group": "ScaLable Information Discovery and Exploitation (SLIDE) group",
             "location": "Grenoble, France",
             "position": "Research Engineer",
             "start_date": "2021-01-15",
@@ -149,7 +149,7 @@
         {
             "company": " CNRS & Grenoble-Alpes University",
             "department": "N\u00e9el Institute",
-            "group": "Micro and NanoMagnetism group",
+            "group": "Micro and NanoMagnetism (MNM) group",
             "location": "Grenoble, France",
             "position": "PhD Student",
             "supervisor": "Olivier Fruchart",
@@ -507,7 +507,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-03 19:42:33.944070"
+        "lastModified": "2026-02-03 19:49:31.151880"
     },
     "interests": [
         {
