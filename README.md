@@ -19,5 +19,3 @@ uv run playwright install chromium
     ```bash
     uv run main.py
     ```
-
-1. Wait for about 1 minute.

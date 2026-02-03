@@ -6,8 +6,6 @@ import time
 from playwright.sync_api import sync_playwright
 # uv run playwright install chromium
 
-MY_PAGE = 'https://sandrinedacol.github.io/resume/'
-
 class ResumeModificator():
 
     def __init__(self):
@@ -18,7 +16,7 @@ class ResumeModificator():
         self.get_empty_html()
         self.copy_data_into_html()
         self.generate_static()
-        self.git_push()
+        # self.git_push()
 
     def insert_text_into_tag(self, tag, text):
         content_before, content_after = self.html.split(f'<{tag}></{tag}>')
@@ -65,16 +63,16 @@ class ResumeModificator():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            # page.goto(MY_PAGE)
-            page.goto("file:///home/sandrine/Documents/candidatures/CV/resume/filled_page.html")
+            page.goto(f"file://{self.path}/filled_page.html")
             page.wait_for_load_state("networkidle")
             html = page.content() 
+        print(f"DOM content retrieved from filled_page.html.")
         before, after = html.split('<script>')
         after = after.split('</script>\n')[-1]
         html_content = before + after
         with open('./index.html', 'w') as f:
             f.write(html_content)
-        print(f"DOM content retrieved from {MY_PAGE}.")
+        
 
 
 def main():
