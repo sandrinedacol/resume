@@ -153,8 +153,8 @@
             "location": "Grenoble, France",
             "position": "PhD Student",
             "supervisor": "Olivier Fruchart",
-            "start_date": "2010-10",
-            "end_date": "2014-06",
+            "start_date": "2010-10-01",
+            "end_date": "2014-06-30",
             "contract": "fixed-term contract",
             "domain": "physics",
             "projects": [
@@ -188,8 +188,8 @@
             "department": "Chemistry Department",
             "location": "Grenoble, France",
             "position": "Teaching Fellow",
-            "start_date": "2010-10",
-            "end_date": "2012-10"
+            "start_date": "2010-10-01",
+            "end_date": "2012-10-01"
         },
         {
             "company": "STMicroelectronics",
@@ -316,6 +316,13 @@
             "position": "Job Seeker",
             "start_date": "2016-09-01",
             "end_date": "2017-12-28"
+        },
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "Grenoble, France",
+            "position": "Job Seeker",
+            "start_date": "2014-06",
+            "end_date": "2015-03"
         }
     ],
     "skills": [
@@ -505,7 +512,7 @@
                                 "clean room techniques",
                                 "electrochemical synthesis",
                                 "ALD",
-                                "evaporatin",
+                                "evaporation",
                                 "FIB"
                             ]
                         }
@@ -565,7 +572,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-08 11:57:28.473056"
+        "lastModified": "2026-02-08 12:05:56.632013"
     },
     "interests": [
         {
