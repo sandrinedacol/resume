@@ -32,7 +32,7 @@ class ResumeModificator():
                 .replace(' * ', '*').replace(' {', '{')
         self.insert_text_into_tag('style', css_content)
 
-    def copy_data_into_html(self, interests=False, inactivity=True):
+    def copy_data_into_html(self, interests=False, inactivity=False):
         content_before, content_after = self.html.split('const data = {}')
         with open('./data.json', 'r') as json_data:
             data = json.load(json_data)
