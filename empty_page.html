@@ -129,6 +129,27 @@
                 document.getElementById('personal-projects').innerHTML = projectsHtml;
             }
 
+            // Inactivity
+            if ("inactivity" in data) {
+                const inactivityHtml = data.inactivity.map(job => {
+                return `
+                    <div class="timeline-item">
+                        <h3>${job.position}</h3>
+                        <div class="company">${job.company}</div>
+                        ${job.location ? `<div class="location">${job.location}</div>` : ''}
+                        <div class="period">
+                          ${formatDate(job.start_date)} - ${formatDate(job.end_date)}  · 
+                          <time-duration dates="${job.start_date}|${job.end_date}"></time-duration>
+                        </div>
+                    </div>
+                `;
+                }).join('');
+                document.getElementById('inactivity').innerHTML = `
+                    <h2>Inactivity</h2>
+                    <div>${inactivityHtml}</div>
+                `;
+            }
+
             // Skills
             const skillsHtml = data.skills.map(domain => {
                 return `
@@ -165,29 +186,30 @@
             document.getElementById('sidebar-skills').innerHTML = skillsHtml;
 
             // Interests
-            const interestsHtml = data.interests.map(interest => {
-              return `
-              <div class=interest-item>
-                <h3>${interest.name}</h3>
-                ${interest.description ? `
-                <p class=interest-description>${interest.description}</p>
-                ` : ''}
-                ${interest.keywords ? `
-                  <ul class="tag-list">
-                    ${interest.keywords.map(keyword => `
-                      <li>${keyword}</li>
-                      `).join('')}
-                  </ul>
-                ` : ''}
-              </div>
-              `;
-            }).join('');
-            var interestsTitle = ""
-            if (interestsHtml != "") {
-                interestsTitle = "Interests"
+            if ("interests" in data) {
+                const interestsHtml = data.interests.map(interest => {
+                return `
+                <div class=interest-item>
+                    <h3>${interest.name}</h3>
+                    ${interest.description ? `
+                    <p class=interest-description>${interest.description}</p>
+                    ` : ''}
+                    ${interest.keywords ? `
+                    <ul class="tag-list">
+                        ${interest.keywords.map(keyword => `
+                        <li>${keyword}</li>
+                        `).join('')}
+                    </ul>
+                    ` : ''}
+                </div>
+                `;
+                }).join('');
+                document.getElementById('sidebar-interests').innerHTML = `
+                    <h2>Interests</h2>
+                    <div>${interestsHtml}</div>
+                `;
             }
-            document.getElementById('title-interests').innerHTML = interestsTitle;
-            document.getElementById('sidebar-interests').innerHTML = interestsHtml;
+            
 
         });
     </script>
@@ -242,10 +264,7 @@ customElements.define('time-duration', TimeDuration)
                 <div id="sidebar-skills"></div>
               </section>
 
-              <section>
-                <h2 id="title-interests"></h2>
-                <div id="sidebar-interests"></div>
-              </section>
+              <section id="sidebar-interests"></section>
             </aside>
             
             <div class="content">
@@ -263,6 +282,8 @@ customElements.define('time-duration', TimeDuration)
                     <h2>Personal Project</h2>
                     <div id="personal-projects"></div>
                 </section>
+
+                <section id="inactivity"></section>
             </div>
             
         </div>

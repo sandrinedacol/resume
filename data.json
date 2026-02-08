@@ -260,6 +260,64 @@
             "end_date": "2008-07-01"
         }
     ],
+    "inactivity": [
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "Laval-en-Belledonne, France",
+            "position": "Job Seeker",
+            "start_date": "2025-12-20",
+            "end_date": "2026-02-08"
+        },
+        {
+            "company": "Pathology #2",
+            "location": "Laval-en-Belledonne, France",
+            "position": "Convalescence",
+            "start_date": "2023-11-07",
+            "end_date": "2024-10-04"
+        },
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "la Tronche, France",
+            "position": "Job Seeker",
+            "start_date": "2022-01-15",
+            "end_date": "2022-11-07"
+        },
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "Grenoble, France",
+            "position": "Job Seeker",
+            "start_date": "2019-06-17",
+            "end_date": "2019-09-30"
+        },
+        {
+            "company": "Pathology #1",
+            "location": "Grenoble, France",
+            "position": "Convalescence",
+            "start_date": "2019-04-17",
+            "end_date": "2019-06-15"
+        },
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "Grenoble, France",
+            "position": "Job Seeker",
+            "start_date": "2019-01-08",
+            "end_date": "2019-04-17"
+        },
+        {
+            "company": "Pathology #1",
+            "location": "Grenoble, France",
+            "position": "Convalescence",
+            "start_date": "2017-12-28",
+            "end_date": "2019-01-08"
+        },
+        {
+            "company": "P\u00f4le Emploi",
+            "location": "Grenoble, France",
+            "position": "Job Seeker",
+            "start_date": "2016-09-01",
+            "end_date": "2017-12-28"
+        }
+    ],
     "skills": [
         {
             "domain": "AI/Data",
@@ -507,7 +565,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-03 19:51:50.079492"
+        "lastModified": "2026-02-08 11:51:16.431697"
     },
     "interests": [
         {
