@@ -15,8 +15,8 @@ class ResumeModificator():
 
         self.get_empty_html()
         self.copy_data_into_html()
-        # self.generate_static()
-        # self.git_push()
+        self.generate_static()
+        self.git_push()
 
     def insert_text_into_tag(self, tag, text):
         content_before, content_after = self.html.split(f'<{tag}></{tag}>')
@@ -32,7 +32,7 @@ class ResumeModificator():
                 .replace(' * ', '*').replace(' {', '{')
         self.insert_text_into_tag('style', css_content)
 
-    def copy_data_into_html(self, interests=False, inactivity=False):
+    def copy_data_into_html(self, interests=False, inactivity=True):
         content_before, content_after = self.html.split('const data = {}')
         with open('./data.json', 'r') as json_data:
             data = json.load(json_data)
