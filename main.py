@@ -6,9 +6,10 @@ import time
 from playwright.sync_api import sync_playwright
 # uv run playwright install chromium
 
-class ResumeModificator():
+class HtmlCreator():
 
-    def __init__(self):
+    def __init__(self, hidden_sections=[]):
+        self.hidden_sections = hidden_sections
         self.date = datetime.now()
         self.path = os.getcwd()
         self.repo = Repo('.')
@@ -32,7 +33,7 @@ class ResumeModificator():
                 .replace(' * ', '*').replace(' {', '{')
         self.insert_text_into_tag('style', css_content)
 
-    def copy_data_into_html(self, interests=False, inactivity=False):
+    def copy_data_into_html(self):
         content_before, content_after = self.html.split('const data = {}')
         with open('./data.json', 'r') as json_data:
             data = json.load(json_data)
@@ -40,10 +41,14 @@ class ResumeModificator():
         self.insert_text_into_tag('title', data['basics']['name'])
         with open('./data.json', 'w') as f:
             json.dump(data, f, indent=4)
-        if not interests:
+        if 'interests' in self.hidden_sections:
             del data['interests']
-        if not inactivity:
+        if 'inactivity' in self.hidden_sections:
             del data['inactivity']
+        if 'school_projects' in self.hidden_sections:
+            for i, edu in enumerate(data['education']):
+                if 'projects' in edu:
+                    del data['education'][i]['projects']
         self.html = content_before + 'const data = ' + json.dumps(data) + content_after
         with open('./filled_page.html', 'w') as f:
             f.write(self.html)
@@ -77,9 +82,10 @@ class ResumeModificator():
         
 
 
-def main():
-    _ = ResumeModificator()
+def main(hidden_sections):
+    _ = HtmlCreator(hidden_sections)
     
 
 if __name__ == "__main__":
-    main()
+    hidden_sections = ['inactivity', 'interests', 'school_projects']
+    main(hidden_sections)
