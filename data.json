@@ -23,7 +23,7 @@
         {
             "company": "Ygreky",
             "location": "remote",
-            "position": "Data Scientist",
+            "position": "R&D Machine Learning Engineer",
             "start_date": "2025-05-05",
             "end_date": "2025-12-20",
             "contract": "internship",
@@ -189,7 +189,36 @@
             "location": "Grenoble, France",
             "position": "Teaching Fellow",
             "start_date": "2010-10-01",
-            "end_date": "2012-10-01"
+            "end_date": "2012-10-01",
+            "domain": "physics",
+            "projects": [
+                {
+                    "name": "- Chemical Thermodynamics & Cinetics <small>(eq. B.Sc. 3rd year)</small><br>- Pluridisciplinary course on \u201cColours in Science\u201d <small>(eq. B.Sc. 1st year)</small>",
+                    "description": "Annual teaching workload: 100 hours",
+                    "highlights": [
+                        "Tutorials, practicals (responsiblility of one of the practicals) and project supervision",
+                        "Writing of exam subjects, correction and grading of practicals reports and exam papers"
+                    ]
+                }
+            ],
+            "description": "Annual teaching workload: 100 hours",
+            "courses": [
+                {
+                    "name": "Chemical thermodynamics & cinetics",
+                    "level": "eq. B.Sc. 3rd year",
+                    "highlights": [
+                        "Tutorials & Practicals (responsiblility of one of the practicals)",
+                        "Writing of exam subjects, correction and grading of practicals reports and exam papers"
+                    ]
+                },
+                {
+                    "name": "Pluridisciplinary course on \u201cColours in Science\u201d",
+                    "level": "eq. B.Sc. 1st year",
+                    "highlights": [
+                        "Practicals & Project supervision"
+                    ]
+                }
+            ]
         },
         {
             "company": "STMicroelectronics",
@@ -572,7 +601,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-09 10:01:02.283793"
+        "lastModified": "2026-02-09 10:32:57.817280"
     },
     "interests": [
         {
