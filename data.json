@@ -31,10 +31,10 @@
             "domain": "AI",
             "projects": [
                 {
-                    "name": "Source code vulnerability detection using machine-learning",
+                    "name": "Source code vulnerability detection using machine learning",
                     "highlights": [
-                        "Database conception and implementation of a pipeline to build and update a new dataset of vulnerable source code",
-                        "Implementation of a literature-inspired model of vulnerability detection, evaluation"
+                        "Database design and implementation of a pipeline to build and update a new dataset of vulnerable source code",
+                        "Implementation and evaluation of a literature-inspired vulnerability detection model"
                     ]
                 }
             ]
@@ -51,12 +51,12 @@
             "domain": "AI",
             "projects": [
                 {
-                    "name": "Bring AI to production line",
+                    "name": "Bringing AI to production line",
                     "description": "Data scientist's expertise to improve process methods",
                     "highlights": [
                         "Early-stage actions on a huge project of Defectivity Digitalization, link between stakeholders (IT/process)",
                         "Process control optimization from a data perspective",
-                        "Automatic Defect Classi\ufb01cation: proposition & exploration of leads of improvement"
+                        "Automatic Defect Classi\ufb01cation: proposal and exploration of improvement directions"
                     ]
                 }
             ]
@@ -73,10 +73,10 @@
             "domain": "AI",
             "projects": [
                 {
-                    "name": "Machine-learning system for dashboard generation",
+                    "name": "Machine learning system for dashboard generation",
                     "highlights": [
-                        "Implementation from scratch of the system and di\ufb00erent algorithms learning from interacting with the user",
-                        "Design and implementation of a web application with a user-friendly interface",
+                        "Implementation from scratch of the system and multiple algorithms learning through user interaction",
+                        "Design and implementation of a web application",
                         "Experiments plan, implementation of a testing pipeline"
                     ],
                     "links": [
@@ -98,7 +98,7 @@
                     "name": "Multicriteria rating extraction from text reviews",
                     "highlights": [
                         "Design and implementation of a pipeline generating ratings on several criteria from Yelp reviews",
-                        "Optimization of the considered adjustable parameters"
+                        "Optimization of adjustable parameters"
                     ]
                 }
             ]
@@ -118,10 +118,10 @@
                     "name": "Few-shot learning for person re-identification",
                     "description": "Goal: Study potential improvements of the model developed in the company",
                     "highlights": [
-                        "Hyperparameters optimization of an already implemented technique (mixup) and study of its relevance for the CNN model developped in Atos",
-                        "Bibliography study on few-shot learning and domain adaptation",
+                        "Hyperparameter optimization of an already implemented technique (mixup) and study of its relevance for the CNN model developed in Atos",
+                        "Literature review on few-shot learning and domain adaptation",
                         "Choice of a deep learning model with external memory and adaptation to person re-identification",
-                        "First attempts towards continual learning"
+                        "Initial work toward continual learning"
                     ]
                 }
             ]
@@ -162,8 +162,8 @@
                     "name": "Domain walls in cylindrical nanowires",
                     "description": "Main achievement: experimental evidence of magnetic structures, predicted for decades by theoretical and numerical studies",
                     "highlights": [
-                        "Fabrication of arrays of cylindrical nanowires, Development of processes to modulate the nanowire diameter and to deposit controlled magnetic alloy (permalloy)",
-                        "Observation of domain walls in single nanowires further to a controlled nucleation, Quasi-static propagation of domain walls (MFM)",
+                        "Fabrication of arrays of cylindrical nanowire arrays, Development of processes to modulate the nanowire diameter and to deposit controlled magnetic alloy (permalloy)",
+                        "Observation of domain walls in single nanowires following controlled nucleation, Quasi-static propagation of domain walls (MFM)",
                         "First observation of the two types of domain walls in cylindrical nanowires, i.e. observation of a Bloch point structure (PEEM/XMCD at Elettra Synchrotron, Trieste)",
                         "Study of the role of interactions on domain wall nucleation and propagation in nanowire arrays"
                     ],
@@ -190,11 +190,11 @@
             "domain": "physics",
             "projects": [
                 {
-                    "name": "- Chemical Thermodynamics & Cinetics <small>(eq. B.Sc. 3rd year)</small><br>- Pluridisciplinary course on \u201cColours in Science\u201d <small>(eq. B.Sc. 1st year)</small>",
+                    "name": "- Chemical Thermodynamics & Kinetics <small>(eq. B.Sc. 3rd year)</small><br>- Multidisciplinary course on \u201cColours in Science\u201d <small>(eq. B.Sc. 1st year)</small>",
                     "description": "Annual teaching workload: 100 hours",
                     "highlights": [
-                        "Tutorials, practicals (responsiblility of one of the practicals) and project supervision",
-                        "Writing of exam subjects, correction and grading of practicals reports and exam papers"
+                        "Tutorials, practicals (responsibility of one of the practicals) and project supervision",
+                        "Writing of exam subjects, correction and grading of lab reports and exam papers"
                     ]
                 }
             ],
@@ -231,8 +231,8 @@
                 {
                     "name": "Intermetallic growth on AuAl wire-bonding",
                     "highlights": [
-                        "Experimental plan / Tests realization",
-                        "Conclusions leading to an evolution of the ageing test used in the Quality department"
+                        "Experimental plan, Mechanical tests and cross-section observations",
+                        "Conclusions leading to an evolution of the aging test used in the Quality department"
                     ]
                 }
             ]
@@ -245,7 +245,7 @@
             "program_name": "Data Scientist",
             "start_date": "2024-10-28",
             "end_date": "2025-12-19",
-            "description": "770h-training course in Data and AI"
+            "description": "770-hour training in Data and AI"
         },
         {
             "institution": "Grenoble INP - ENSIMAG & Grenoble Ecole de Management",
@@ -432,14 +432,14 @@
                         {
                             "name": "Data Manipulation",
                             "technos": [
-                                "numpy",
+                                "NumPy",
                                 "pandas"
                             ]
                         },
                         {
                             "name": "Scraping & Mining",
                             "technos": [
-                                "beautifulsoup",
+                                "BeautifulSoup",
                                 "requests"
                             ]
                         },
@@ -447,10 +447,10 @@
                             "name": "Visualization",
                             "technos": [
                                 "matplotlib",
-                                "plotly",
+                                "Plotly",
                                 "d3.js",
                                 "Vega",
-                                "Vega-lite"
+                                "Vega-Lite"
                             ]
                         }
                     ]
@@ -477,7 +477,7 @@
                                 "FastAPI",
                                 "Vue.js",
                                 "Bootstrap",
-                                "Javascript",
+                                "JavaScript",
                                 "HTML"
                             ]
                         }
@@ -598,7 +598,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-13 11:30:55.509015"
+        "lastModified": "2026-02-13 11:56:06.699498"
     },
     "interests": [
         {
