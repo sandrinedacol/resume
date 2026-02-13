@@ -47,7 +47,7 @@
             "position": "Data Scientist / Process Engineer",
             "start_date": "2022-11-07",
             "end_date": "2023-11-07",
-            "contract": "fixed-term contract",
+            "contract": "",
             "domain": "AI",
             "projects": [
                 {
@@ -69,15 +69,15 @@
             "position": "Research Engineer",
             "start_date": "2021-01-15",
             "end_date": "2022-01-15",
-            "contract": "fixed-term contract",
+            "contract": "",
             "domain": "AI",
             "projects": [
                 {
                     "name": "Machine-learning system for dashboard generation",
                     "highlights": [
-                        "Implementation from scratch of the system and di\ufb00erent algorithms learning from interacting with the user, experiments & tests",
-                        "Design and implementation of a web application",
-                        "Experiments plan, implementation and tests"
+                        "Implementation from scratch of the system and di\ufb00erent algorithms learning from interacting with the user",
+                        "Design and implementation of a web application with a user-friendly interface",
+                        "Experiments plan, implementation of a testing pipeline"
                     ],
                     "links": [
                         {
@@ -98,7 +98,7 @@
                     "name": "Multicriteria rating extraction from text reviews",
                     "highlights": [
                         "Design and implementation of a pipeline generating ratings on several criteria from Yelp reviews",
-                        "Tests to optimize considered adjustable parameters"
+                        "Optimization of the considered adjustable parameters"
                     ]
                 }
             ]
@@ -134,7 +134,7 @@
             "position": "Postdoctoral Researcher",
             "start_date": "2015-03",
             "end_date": "2016-09",
-            "contract": "fixed-term contract",
+            "contract": "",
             "domain": "physics",
             "projects": [
                 {
@@ -155,20 +155,17 @@
             "supervisor": "Olivier Fruchart",
             "start_date": "2010-10-01",
             "end_date": "2014-06-30",
-            "contract": "fixed-term contract",
+            "contract": "",
             "domain": "physics",
             "projects": [
                 {
                     "name": "Domain walls in cylindrical nanowires",
                     "description": "Main achievement: experimental evidence of magnetic structures, predicted for decades by theoretical and numerical studies",
                     "highlights": [
-                        "Fabrication of arrays of cylindrical nanowires (aluminum anodization and electrodeposition)",
-                        "Development of a process to modulate the nanowire diameter",
-                        "Development of a deposition process for controlled magnetic alloy (permalloy)",
-                        "Study of the role of interactions on domain wall nucleation and propagation in nanowire arrays",
-                        "MFM observation of domain walls in single permalloy nanowires, further to a controlled nucleation",
-                        "Quasi-static propagation of domain walls and mesurements of propagation fields",
-                        "First observation of the two types of domain walls in cylindrical nanowires, i.e. observation of a Bloch point structure (XMCD-PEEM)"
+                        "Fabrication of arrays of cylindrical nanowires, Development of processes to modulate the nanowire diameter and to deposit controlled magnetic alloy (permalloy)",
+                        "Observation of domain walls in single nanowires further to a controlled nucleation, Quasi-static propagation of domain walls (MFM)",
+                        "First observation of the two types of domain walls in cylindrical nanowires, i.e. observation of a Bloch point structure (PEEM/XMCD at Elettra Synchrotron, Trieste)",
+                        "Study of the role of interactions on domain wall nucleation and propagation in nanowire arrays"
                     ],
                     "links": [
                         {
@@ -601,7 +598,7 @@
         }
     ],
     "meta": {
-        "lastModified": "2026-02-09 10:32:57.817280"
+        "lastModified": "2026-02-13 11:30:55.509015"
     },
     "interests": [
         {

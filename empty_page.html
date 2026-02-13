@@ -66,6 +66,7 @@
                         <div class="period">
                           ${formatDate(job.start_date)} - ${formatDate(job.end_date)}  · 
                           <time-duration dates="${job.start_date}|${job.end_date}"></time-duration>
+                          ${job.contract ? `${job.contract}` : ''}
                         </div>
                         ${projectsHtml}
                     </div>
